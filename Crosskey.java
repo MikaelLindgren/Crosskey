@@ -5,7 +5,7 @@ import java.io.FileReader;
 
 public class Crosskey {
 	public static void main(String[] args) {
-		File file = new File("/Users/mikaellindgren/eclipse-workspace/Crosskey/src/mortgage/prospects.txt");
+		File file = new File("./prospects.txt");
 		FileReader fr;
 		BufferedReader br;
 		double total;
